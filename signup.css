@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#container{
+    background: #F0F2F5;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px rgb(202, 199, 199);
+}
+form {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  
+}
+.details input {
+    width:98%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 212, 212);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    background: #F0F2F5;
+}
+.sentence {
+    width: 400px;
+    font-size: 16px;
+}
+
+.line {
+    margin: 10px;
+    border-width: thin;
+    border: 0.2px solid rgb(189, 186, 186);
+}
+
+.sentence a {
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.footer {
+    margin: 200px auto 0px auto;
+    color: #8A8D91;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    width: 800px;
+    background: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #8A8D91;
+    margin: 1px;
+}
+
+.far fa-plus-square {
+    font-size: 10px;
+}
+
+.fgt-pass {
+    margin: 0;
+}
+
+/* popup css code    */
+
+.mypopup {
+    width: 432px;
+    height: 503px;
+    box-shadow: 2px 2px 2px 2px rgb(202, 199, 199);
+    margin: 8px;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.mypopup img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.ftp {
+    width: 432px;
+    height: 82px;
+    padding: 10px 16px;
+}
+
+.box-1 {
+    width: 400px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-1 h1 {
+    color: #1c1e21;
+    font-size: 32px;
+}
+
+.box-2 {
+    width: 400px;
+    height: 24px;
+    font-size: 15px;
+}
+
+.names {
+    width: 399px;
+    height: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2px;
+}
+
+.names input {
+    width: 186px;
+    height: 36px;
+    padding: 10px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+}
+
+.names input .error {
+    border: red;
+}
+
+.names input :nth-child(2) {
+    margin-left: 11px;
+}
+
+.details input {
+    width: 399px;
+    height: 40px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+}
+
+#firstName .error {
+    border: red;
+}
+#firstName .error i{
+    color: red;
+    position: absolute;;
+    right: 10px;
+    top:40px;
+}
+
+.date {
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+    margin: 2px 0 0;
+}
+
+.date-no {
+    width: 399px;
+    height: 36px;
+    display: flex;
+    border: 1px solid rgb(216, 212, 212);
+}
+
+.date-no select {
+    width: 125px;
+    height: 36px;
+    padding: 0 20px 0 8px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+}
+
+.date-no select:nth-child(2) {
+    margin: 0 0 0 12px;
+}
+
+.date-no select:nth-child(3) {
+    margin: 0 0 0 12px;
+}
+
+.radio-btn {
+    width: 411px;
+    height: 50px;
+    margin: -8px -6px -6px;
+    color: #777777;
+    display: flex;
+    margin-top: 5px;
+}
+
+.radio-btn input {
+    width: 13px;
+    height: 13px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+}
+
+.radio-btn span {
+    width: 128.28px;
+    height: 36px;
+    color: #1c1e21;
+    font-size: 15px;
+    padding: 0 18px 0 10px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.radio-btn p {
+    top: 50%;
+}
+
+.policy {
+    width: 399px;
+    height: 28px;
+    margin: 11px 0;
+    font-size: 11px;
+}
+
+.submit-btn {
+    background: #39a724;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 194px;
+    height: 36px;
+}
+
+.button {
+    width: 400px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 {
+    width: 400px;
+    height: 380px;
+    margin: 12px;
+}
+
+
